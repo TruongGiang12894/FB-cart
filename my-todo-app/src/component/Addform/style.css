@@ -1,0 +1,45 @@
+.add-form{
+    width: 300px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 10px;
+}
+label{
+    display: inline-block;
+    width: 70px;
+    margin-left: 10px;
+    
+}
+input{
+    width: 200px;
+    margin: 10px auto;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 2px;
+    border-style:outset;
+}
+::placeholder{
+    color: rgba(128, 128, 128, 0.307);
+    font-style: italic;
+    font-size:x-small;
+}
+.add-form>button{
+    margin: 10px auto;
+    display: block;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+    box-shadow: 2px 2px 2px grey;
+}
+.add-form>p{
+    margin: 0px;
+    font-size: x-small;
+    font-style: italic;
+    text-align: center;
+    color: red;
+}
